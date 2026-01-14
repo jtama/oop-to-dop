@@ -1,0 +1,10 @@
+{
+  "catalogs": {},
+  "aliases": {
+    "qrcode": {
+      "description": "Esealy generate QR Code SVGs",
+      "script-ref": "./qrcode.java"
+    }
+  },
+  "templates": {}
+}
