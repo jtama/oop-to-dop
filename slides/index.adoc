@@ -1,4 +1,4 @@
-= Fatiguée de la POO ? Passez à la DOP !
+= Fatigués de la POO ? Passez à la DOP !
 :docinfo: private
 :source-highlighter: highlight.js
 :highlightjsdir: highlight.js

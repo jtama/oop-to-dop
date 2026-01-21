@@ -23,7 +23,7 @@ cd slides
 podman container run --name prez --rm -d -p 8080:80 -v $(pwd)/slides:/usr/share/nginx/html nginx
 
 # Only if you need a coder for your slides
-podman container run --name coder --rm -d -p 8443:8443 -v $(pwd):/config/workspace -v ~/.m2:/config/.m2 -e MAVEN_CONFIG=/config/.m2 ghcr.io/jtama/java_jbang_codeserver:latest
+podman container run --name coder --rm -d -p 8443:8443 -v $(pwd)/../crazy-data-oriented-programming:/config/workspace -v ~/.m2:/config/.m2 -e MAVEN_CONFIG=/config/.m2 ghcr.io/jtama/java_jbang_codeserver:latest
 ----
 
 === Adaptation
