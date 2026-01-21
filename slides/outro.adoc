@@ -1,6 +1,30 @@
 [%notitle.transparency]
 == Outro
 
+[%step]
+* Amélioration de la Sécurité
+* Réduction du Code
+* Lisibilité et Maintenabilité
+
+[.notes]
+--
+. Exhaustivité : Le compilateur garantit la couverture de tous les cas
+. Immutabilité : Données finales par défaut
+. Typage fort : Séparation claire des responsabilités par type
+
+. Moins de boilerplate : Les records éliminent getters, equals, hashCode, toString
+. Validation centralisée : Constructeurs compacts pour la validation
+
+. Intentions révélées : Le code exprime clairement l’intention
+. Pattern matching : Logique métier plus lisib le
+. Séparation des préoccupations : Chaque type gère sa propre logique
+
+L’analyse des statistiques Git révèle l’impact de cette transformation :
+
+    Réduction nette de 212 lignes (60% de réduction), et ça c’est bon ! \o/
+--
+
+
 [.transparency.no-transition]
 === Merci !
 
