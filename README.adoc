@@ -10,7 +10,7 @@ Readable version available https://jtama.github.io/https://jtama.github.io/oop-t
 cd slides
 
 # Generates qrcode that link to talk home
-./qrcode.java -o slides/images/qr_home.svg https://jtama.github.io/oop-to-dop/home.html
+./qrcode.java -o slides/images/qr_home.svg https://jtama.github.io/oop-to-dop/devquest/home.html
 ----
 
 === Run locally

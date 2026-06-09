@@ -43,5 +43,3 @@ image::ghost.jpg[background, size=cover]
 
 image::lear_to_fly.jpg[background, size=cover]
 
-[%notitle.demo,background-iframe="http://localhost:8443"]
-=== GO
