@@ -25,7 +25,8 @@ h1 {
 
     .card {
         padding: 1em;
-        background: linear-gradient(rgba(var(--r-main-color), 0.8) 100%);
+        background: #63B190;
+        background: linear-gradient(180deg,rgba(99, 177, 144, 1) 0%, rgba(36,31,53, 1) 100%);
         width: 300px;
         height: 300px;
         border-radius: 100%;
